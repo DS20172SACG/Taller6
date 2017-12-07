@@ -5,8 +5,8 @@ public abstract class Builder {
 	protected Computador computador;
 	
 	public abstract void buildComputer();
-	public abstract void buildOS();
-	public abstract void buildMainboard();
+	public abstract SistemaOperativo buildOS();
+	public abstract Mainboard buildMainboard();
 	
 	public Computador getComputador(){
 		return this.computador;
